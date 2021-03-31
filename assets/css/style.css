@@ -1,5 +1,110 @@
 
+/* ------------------------------------- Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
+/* -------------------------------------------- Body */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    height: 100%;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* --------------------------------------- Container */
+.container {
+    font-family: 'Kumbh Sans', sans-serif;
+    min-height: 100vh;
+    background-color: #19a2ae;
+    background-position: bottom 40vh right 51vw, top 52vh left 48vw;
+    background-repeat: no-repeat, no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+}
+
+/* ---------------------------------- Profile card */
+
+/* HEADER */
+.profile-card {
+    max-width: 311px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    box-shadow: 0 32px 128px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card-name,
+.profile-card-numbers {
+    color: #2d3248;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.profile-card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 77px 0 21px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-card-age,
+.profile-card-location,
+.profile-card-stat-label {
+    color: #6a6f81;
+    font-weight: 400;
+}
+
+.profile-card-avatar {
+    background-color: #fafafa;
+    border-radius: 50%;
+    border: 5px solid #fafafa;
+    margin-bottom: 19.5px;
+}
+
+.profile-card-name {
+    margin-bottom: 10.5px;
+}
+
+.profile-card-age {
+    margin-left: 3.5px;
+}
+
+.profile-card-location {
+    font-size: 12.8px;
+}
+
+/* Avatar */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Stats info */
+.profile-card-stats-list {
+    display: flex;
+    padding: 25px 28px 21px 21px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-card-stats-list li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.profile-card-numbers {
+    margin-bottom: 4px;
+}
+
+.profile-card-stat-label {
+    font-size: 8px;
+    letter-spacing: 1.5px;
+}
