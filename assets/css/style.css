@@ -8,11 +8,11 @@ body {
     padding: 0;
     min-height: 100vh;
     height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 /* --------------------------------------- Container */
 .container {
-    font-family: 'Kumbh Sans', sans-serif;
     min-height: 100vh;
     background-color: #19a2ae;
     background-position: bottom 40vh right 51vw, top 52vh left 48vw;
@@ -107,4 +107,14 @@ img {
 .profile-card-stat-label {
     font-size: 8px;
     letter-spacing: 1.5px;
+}
+
+.attribution {
+    background-color: #2d3248;
+    color: #fafafa;
+}
+
+.attribution a {
+    color: #19a2ae;
+
 }
